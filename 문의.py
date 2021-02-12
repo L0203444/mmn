@@ -1,4 +1,6 @@
 import discord
+import os
+
 
 client = discord.Client()
 
@@ -45,5 +47,8 @@ async def on_message(message):
         else:
             return
 
-client.run('ODA4MTcxOTc5NTA5MjAyOTQ0.YCCqzw.9CzxlJ2BHmoiYHlQ2KYoymwa0rE')
+        
+        
+access_token - os.eviron["BOT_TOKEN"]        
+client.run(access_token)
 #2차로 수정 or 응용은 가능하나 소스코드를 판매하는 행위는 자제부탁드립니다. made by ㄱㅅㄱ#0001
